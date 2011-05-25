@@ -1,9 +1,12 @@
 /*
- * IRremote: IRsendDemo - demonstrates sending IR codes with IRsend
- * An IR LED must be connected to Arduino PWM pin 10.
- * Version 0.1 July, 2009
- * Copyright 2009 Ken Shirriff
- * http://arcfn.com
+ Author: Thomas Graft
+ thomasgraft.com
+ 
+ Based on code by:
+  
+  Alexander Brevig - Keypad Code
+  Ken Shirriff - IR
+
  */
 
 #include <IRremote.h>
