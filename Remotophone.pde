@@ -25,6 +25,8 @@ byte colPins[COLS] = {8, 7, 6}; //connect to the column pinouts of the keypad
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
 // COMMANDS
+// NOTE: If you use this code, you'll need to change these
+// to work with your specific remote codes
 unsigned long POWER = 0x20DF10EF;
 unsigned long GENERAL_INPUT= 0x20DFF40B;
 unsigned long HDMI = 0x20DF639C;
@@ -76,7 +78,5 @@ void loop()
       }
     }
 
-      //
-      //delay(3000);
 }
 
